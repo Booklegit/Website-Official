@@ -1,4 +1,4 @@
-  /*-- -------------------------- -->
+/*-- -------------------------- -->
 <---          Services          -->
 <--- -------------------------- -*/
 /* Mobile - 360px */
@@ -337,29 +337,8 @@
     left: 50%;
   }
 }
-/* Dark Mode */
-@media only screen and (min-width: 0rem) {
-  body.dark-mode #services-2051 {
-    background-color: var(--dark);
-  }
-  body.dark-mode #services-2051 .cs-topper {
-    color: var(--primary);
-  }
-  body.dark-mode #services-2051 .cs-title,
-  body.dark-mode #services-2051 .cs-text,
-  body.dark-mode #services-2051 .cs-h3,
-  body.dark-mode #services-2051 .cs-item-text {
-    color: var(--bodyTextColorWhite);
-  }
-  body.dark-mode #services-2051 .cs-text,
-  body.dark-mode #services-2051 .cs-item-text {
-    opacity: 0.8;
-  }
-  body.dark-mode #services-2051 .cs-item {
-    background-color: var(--medium);
-  }
-}
-                                
+
+
 :root {
     /* Add these styles to your global stylesheet, which is used across all site pages. You only need to do this once. All elements in the library derive their variables and base styles from this central sheet, simplifying site-wide edits. For instance, if you want to modify how your h2's appear across the site, you just update it once in the global styles, and the changes apply everywhere. */
     --primary: #ff6a3e;
